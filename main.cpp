@@ -9,19 +9,19 @@ using namespace std;
 int main()
 {
     vector<int> arr;
-    // srand(11);
-    // for (int i = 35000; i > 0; i--)
-    // {
-    //     arr.push_back(rand());
-    // }
+    srand(11);
+    for (int i = 35000; i > 0; i--)
+    {
+        arr.push_back(rand());
+    }
 
-    // cout << "for inertion sort" << endl;
-    // cout << time(NULL) << endl;
-    // InsertionSort(arr, 35000);
-    // cout << time(NULL) << endl
-    //      << endl;
+    cout << "for inertion sort" << endl;
+    cout << time(NULL) << endl;
+    InsertionSort(arr, 35000);
+    cout << time(NULL) << endl
+         << endl;
 
-    // srand(11);
+    srand(11);
     int maxsize = 5000000;
 
     RandomGenerator(arr, maxsize);
